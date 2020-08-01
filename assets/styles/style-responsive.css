@@ -1,0 +1,116 @@
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 5px 5px;
+    margin-bottom: 0px;
+  }
+  header .utama {
+    font-size: small;
+    text-align: center;
+  }
+  nav ul {
+    background-color: pink;
+    list-style: none;
+    /* margin-top: 20px; */
+    margin-bottom: 5px;
+    padding: 5px 5px;
+  }
+  nav a {
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: #000066;
+    font-size: small;
+    font-weight: bold;
+  }
+
+  form {
+    float: right;
+    margin-top: 5px;
+    position: sticky;
+    top: 3.5px;
+  }
+
+  .input1 {
+    width: 80px;
+  }
+
+  main {
+    padding: 0px;
+  }
+
+  main h2 {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: small;
+    font-weight: bold;
+  }
+
+  main p {
+    font-size: small;
+  }
+
+  .post-artikel {
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .image1,
+  .image2,
+  .image3,
+  .image4 {
+    float: none;
+    box-shadow: 0px 0px 2px 0 rgba(219, 112, 147, 0.3);
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    padding: 1px 1px;
+    margin: 1px 1px;
+  }
+
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  aside h2,
+  h3,
+  figcaption {
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px;
+    color: #00004d;
+  }
+
+  #img-profil {
+    width: 50%;
+    height: 50%;
+    box-shadow: 0px 0px 8px 0 hsl(340, 60%, 65%);
+    border-radius: 5px;
+    margin-left: 25%;
+  }
+
+  .tabel {
+    font-size: small;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #00004d;
+  }
+
+  #copyrigth {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+  }
+}
